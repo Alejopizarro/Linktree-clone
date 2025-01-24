@@ -3,7 +3,7 @@ import { TreePalm } from "lucide-react";
 import LinkProfile from "./components/LinkProfile/LinkProfile";
 import { useUser } from "@clerk/nextjs";
 import { useEffect, useState } from "react";
-import { Link, User } from "@prisma/client";
+import { User, Link } from "@prisma/client";
 
 export default function HomePage() {
   const { user } = useUser();
